@@ -75,7 +75,7 @@ Margin: 45.6938 (Safe)
 
 ---
 
-## 💡 Why Certification Matters
+## Why Certification Matters
 
 In real-world scenarios — whether it's autonomous vehicles or medical AI — we need guarantees, not guesses.
 This project shows how we can **mathematically certify** when a model is making a reliable prediction.
