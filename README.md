@@ -1,5 +1,7 @@
 # IBP-CERTIFIER-NN
 
+![IBP-CERTIFIER-NN](illustration.png)
+
 A lightweight and practical project to **train a neural network on MNIST** and **formally certify its robustness** using **Interval Bound Propagation (IBP)**. The goal? To answer a simple but important question:
 
 > Can we guarantee that the model's prediction will not change even if the input image is slightly perturbed?
