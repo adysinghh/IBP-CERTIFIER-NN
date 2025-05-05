@@ -31,7 +31,7 @@ print(f"Prediction {'CORRECT' if pred_class == y else 'WRONG'}")
 # Run interval bound propagation
 l_bounds, u_bounds = propagate_bounds(model, x[0], epsilon)
 
-print("\n📊 Output Logit Bounds:")
+print("\n Output Logit Bounds:")
 margin_info = []
 for i in range(len(l_bounds)):
     range_width = u_bounds[i] - l_bounds[i]
@@ -58,4 +58,4 @@ print(f"Margin: {margin:.4f} {'(Safe)' if margin > 0 else 'Unsafe'}\n")
 
 # Optional: suggest retrying with lower ε if needed
 if not certified and epsilon > 0.0001:
-    print(f"💡 Tip: Try a smaller ε (e.g., {epsilon/2}) or a different test image (e.g., index = {index+1})")
+    print(f" Tip: Try a smaller ε (e.g., {epsilon/2}) or a different test image (e.g., index = {index+1})")
