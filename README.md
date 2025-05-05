@@ -8,7 +8,7 @@ Instead of relying on adversarial attacks, we use formal analysis to compute bou
 
 ---
 
-## ✨ What This Project Does
+## What This Project Does
 
 - Trains a fully connected neural network on MNIST (99.9% accuracy achieved)
 - Applies Interval Bound Propagation (IBP) to mathematically track how input noise affects output logits
@@ -18,7 +18,7 @@ Instead of relying on adversarial attacks, we use formal analysis to compute bou
 
 ---
 
-## 📦 How to Use
+## How to Use
 
 ### 1. Clone the repository
 
@@ -47,7 +47,7 @@ Example training output:
 
 ```
 Epoch 50 | Loss: 0.0037 | Accuracy: 99.91%
-✅ Model training complete and saved to 'model.pth'
+Model training complete and saved to 'model.pth'
 ```
 
 ---
@@ -69,7 +69,7 @@ Class 2: Lower = 40.5115, Upper = 58.6902
 Class 1: Upper = -5.1823
 ...
 
-✅ Image is CERTIFIED ROBUST at ε = 0.001
+Image is CERTIFIED ROBUST at ε = 0.001
 Margin: 45.6938 (Safe)
 ```
 
@@ -82,7 +82,7 @@ This project shows how we can **mathematically certify** when a model is making 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 IBP-CERTIFIER-NN/
@@ -95,7 +95,7 @@ IBP-CERTIFIER-NN/
 ```
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 * Inspired by recent research on certified AI and robustness verification
 * Special thanks to Dr. Xiyue Zhang and Marta Kwiatkowska’s work on formal verification of deep networks
