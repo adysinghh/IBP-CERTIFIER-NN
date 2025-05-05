@@ -1,0 +1,129 @@
+
+>python train_model.py
+Epoch  1 | Loss: 0.2375 | Accuracy: 93.00%
+Epoch  2 | Loss: 0.0884 | Accuracy: 97.26%
+Epoch  3 | Loss: 0.0587 | Accuracy: 98.19%
+Epoch  4 | Loss: 0.0427 | Accuracy: 98.64%
+Epoch  5 | Loss: 0.0323 | Accuracy: 98.89%
+Epoch  6 | Loss: 0.0260 | Accuracy: 99.13%
+Epoch  7 | Loss: 0.0219 | Accuracy: 99.26%
+Epoch  8 | Loss: 0.0178 | Accuracy: 99.37%
+Epoch  9 | Loss: 0.0165 | Accuracy: 99.46%
+Epoch 10 | Loss: 0.0140 | Accuracy: 99.54%
+Epoch 11 | Loss: 0.0129 | Accuracy: 99.57%
+Epoch 12 | Loss: 0.0135 | Accuracy: 99.59%
+Epoch 13 | Loss: 0.0120 | Accuracy: 99.62%
+Epoch 14 | Loss: 0.0108 | Accuracy: 99.64%
+Epoch 15 | Loss: 0.0094 | Accuracy: 99.70%
+Epoch 16 | Loss: 0.0110 | Accuracy: 99.64%
+Epoch 17 | Loss: 0.0087 | Accuracy: 99.72%
+Epoch 18 | Loss: 0.0075 | Accuracy: 99.77%
+Epoch 19 | Loss: 0.0104 | Accuracy: 99.70%
+Epoch 20 | Loss: 0.0108 | Accuracy: 99.65%
+Epoch 21 | Loss: 0.0054 | Accuracy: 99.83%
+Epoch 22 | Loss: 0.0092 | Accuracy: 99.71%
+Epoch 23 | Loss: 0.0092 | Accuracy: 99.72%
+Epoch 24 | Loss: 0.0062 | Accuracy: 99.79%
+Epoch 25 | Loss: 0.0086 | Accuracy: 99.74%
+Epoch 26 | Loss: 0.0051 | Accuracy: 99.84%
+Epoch 27 | Loss: 0.0071 | Accuracy: 99.80%
+Epoch 28 | Loss: 0.0069 | Accuracy: 99.78%
+Epoch 29 | Loss: 0.0082 | Accuracy: 99.79%
+Epoch 30 | Loss: 0.0057 | Accuracy: 99.84%
+Epoch 31 | Loss: 0.0069 | Accuracy: 99.81%
+Epoch 32 | Loss: 0.0052 | Accuracy: 99.85%
+Epoch 33 | Loss: 0.0083 | Accuracy: 99.80%
+Epoch 34 | Loss: 0.0037 | Accuracy: 99.90%
+Epoch 35 | Loss: 0.0033 | Accuracy: 99.92%
+Epoch 36 | Loss: 0.0065 | Accuracy: 99.82%
+Epoch 37 | Loss: 0.0078 | Accuracy: 99.83%
+Epoch 38 | Loss: 0.0081 | Accuracy: 99.79%
+Epoch 39 | Loss: 0.0033 | Accuracy: 99.88%
+Epoch 40 | Loss: 0.0068 | Accuracy: 99.83%
+Epoch 41 | Loss: 0.0051 | Accuracy: 99.87%
+Epoch 42 | Loss: 0.0037 | Accuracy: 99.91%
+Epoch 43 | Loss: 0.0048 | Accuracy: 99.87%
+Epoch 44 | Loss: 0.0077 | Accuracy: 99.79%
+Epoch 45 | Loss: 0.0033 | Accuracy: 99.91%
+Epoch 46 | Loss: 0.0030 | Accuracy: 99.92%
+Epoch 47 | Loss: 0.0057 | Accuracy: 99.85%
+Epoch 48 | Loss: 0.0055 | Accuracy: 99.87%
+Epoch 49 | Loss: 0.0044 | Accuracy: 99.89%
+Epoch 50 | Loss: 0.0064 | Accuracy: 99.86%
+
+Model training complete and saved to 'model.pth'
+
+>python certifier.py
+Epoch  1 | Loss: 0.2378 | Accuracy: 92.99%
+Epoch  2 | Loss: 0.0870 | Accuracy: 97.34%
+Epoch  3 | Loss: 0.0588 | Accuracy: 98.15%
+Epoch  4 | Loss: 0.0423 | Accuracy: 98.63%
+Epoch  5 | Loss: 0.0315 | Accuracy: 99.00%
+Epoch  6 | Loss: 0.0259 | Accuracy: 99.12%
+Epoch  7 | Loss: 0.0228 | Accuracy: 99.27%
+Epoch  8 | Loss: 0.0185 | Accuracy: 99.39%
+Epoch  9 | Loss: 0.0167 | Accuracy: 99.45%
+Epoch 10 | Loss: 0.0146 | Accuracy: 99.53%
+Epoch 11 | Loss: 0.0121 | Accuracy: 99.56%
+Epoch 12 | Loss: 0.0133 | Accuracy: 99.59%
+Epoch 13 | Loss: 0.0127 | Accuracy: 99.60%
+Epoch 14 | Loss: 0.0093 | Accuracy: 99.71%
+Epoch 15 | Loss: 0.0124 | Accuracy: 99.62%
+Epoch 16 | Loss: 0.0061 | Accuracy: 99.79%
+Epoch 17 | Loss: 0.0118 | Accuracy: 99.62%
+Epoch 18 | Loss: 0.0065 | Accuracy: 99.82%
+Epoch 19 | Loss: 0.0099 | Accuracy: 99.71%
+Epoch 20 | Loss: 0.0078 | Accuracy: 99.77%
+Epoch 21 | Loss: 0.0074 | Accuracy: 99.78%
+Epoch 22 | Loss: 0.0089 | Accuracy: 99.73%
+Epoch 23 | Loss: 0.0074 | Accuracy: 99.78%
+Epoch 24 | Loss: 0.0064 | Accuracy: 99.79%
+Epoch 25 | Loss: 0.0095 | Accuracy: 99.76%
+Epoch 26 | Loss: 0.0072 | Accuracy: 99.80%
+Epoch 27 | Loss: 0.0075 | Accuracy: 99.80%
+Epoch 28 | Loss: 0.0078 | Accuracy: 99.77%
+Epoch 29 | Loss: 0.0066 | Accuracy: 99.79%
+Epoch 30 | Loss: 0.0053 | Accuracy: 99.85%
+Epoch 31 | Loss: 0.0053 | Accuracy: 99.85%
+Epoch 32 | Loss: 0.0077 | Accuracy: 99.79%
+Epoch 33 | Loss: 0.0062 | Accuracy: 99.81%
+Epoch 34 | Loss: 0.0059 | Accuracy: 99.82%
+Epoch 35 | Loss: 0.0062 | Accuracy: 99.83%
+Epoch 36 | Loss: 0.0060 | Accuracy: 99.83%
+Epoch 37 | Loss: 0.0046 | Accuracy: 99.88%
+Epoch 38 | Loss: 0.0086 | Accuracy: 99.77%
+Epoch 39 | Loss: 0.0042 | Accuracy: 99.89%
+Epoch 40 | Loss: 0.0076 | Accuracy: 99.83%
+Epoch 41 | Loss: 0.0079 | Accuracy: 99.77%
+Epoch 42 | Loss: 0.0030 | Accuracy: 99.92%
+Epoch 43 | Loss: 0.0026 | Accuracy: 99.93%
+Epoch 44 | Loss: 0.0083 | Accuracy: 99.82%
+Epoch 45 | Loss: 0.0053 | Accuracy: 99.86%
+Epoch 46 | Loss: 0.0018 | Accuracy: 99.96%
+Epoch 47 | Loss: 0.0050 | Accuracy: 99.87%
+Epoch 48 | Loss: 0.0083 | Accuracy: 99.81%
+Epoch 49 | Loss: 0.0031 | Accuracy: 99.91%
+Epoch 50 | Loss: 0.0037 | Accuracy: 99.91%
+
+ Model training complete and saved to 'model.pth'
+
+Clean Prediction: 2 (Confidence: 49.9437) | True Label: 2 | Epsilon: 0.001
+Prediction CORRECT
+
+ Output Logit Bounds:
+Class 0: Lower = -56.7484, Upper = -34.3277 | Range Width: 22.4207
+Class 1: Lower = -26.5123, Upper = -5.1823 | Range Width: 21.3301
+Class 2: Lower = 40.5115, Upper = 58.6902 | Range Width: 18.1787
+Class 3: Lower = -36.6139, Upper = -18.3981 | Range Width: 18.2158
+Class 4: Lower = -56.8212, Upper = -33.4969 | Range Width: 23.3243
+Class 5: Lower = -61.6576, Upper = -34.8682 | Range Width: 26.7894
+Class 6: Lower = -72.6907, Upper = -44.5073 | Range Width: 28.1834
+Class 7: Lower = -43.5498, Upper = -21.2393 | Range Width: 22.3106
+Class 8: Lower = -35.3977, Upper = -16.0622 | Range Width: 19.3355
+Class 9: Lower = -92.1116, Upper = -65.5815 | Range Width: 26.5301
+
+Certification Result:
+Image is CERTIFIED ROBUST at ε = 0.001
+Closest competing class: 1 with upper bound -5.1823
+Required: Lower bound of class 2 > -5.1823
+Margin: 45.6938 (Safe)
